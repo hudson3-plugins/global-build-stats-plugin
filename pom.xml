@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+  
+    <parent>
+        <groupId>org.eclipse.hudson.plugins</groupId>
+        <artifactId>hudson-plugin-parent</artifactId>    
+        <version>3.0.0-RC2</version>
+    </parent>
+
+    <groupId>org.hudsonci.plugins</groupId>
+    <artifactId>global-build-stats</artifactId>
+    <version>1.4-h-1-SNAPSHOT</version>
+    <name>Hudson Global Build Stats Plugin</name>
+    <packaging>hpi</packaging>
+    <url>http://wiki.hudson-ci.org/display/HUDSON/Global+Build+Stats+Plugin</url>
+    <description>Global build stats plugin will allow to gather and display global build result statistics. It is a useful tool allowing to display global hudson build trend over time.</description>
+  
+    <licenses>
+        <license>
+            <name>The MIT license</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    
+    <developers>
+        <developer>
+            <id>wjprakash</id>
+            <name>Winston Prakash</name>
+            <email>winston.prakash@gmail.com</email>
+            <roles>
+                <role>
+                    Maintainer
+                </role>
+            </roles>
+        </developer>
+        <developer>
+            <id>fcamblor</id>
+            <name>Frederic Camblor</name>
+            <email>fcamblor+wikihudson@gmail.com</email>
+            <roles>
+                <role>
+                    Original Developer
+                </role>
+            </roles>
+        </developer>
+    </developers>
+    
+    <dependencies>
+        <dependency>
+            <groupId>org.hudsonci.plugins</groupId>
+            <artifactId>jfreechart-plugin</artifactId>
+            <version>1.4</version>
+        </dependency>
+    </dependencies>
+    
+    <scm>
+        <connection>scm:git:git@github.com:hudson3-plugins/global-build-stats-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:hudson3-plugins/global-build-stats-plugin.git</developerConnection>
+        <url>https://github.com/hudson3-plugins/global-build-stats-plugin</url>
+    </scm>
+</project>
