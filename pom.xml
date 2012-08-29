@@ -9,7 +9,7 @@
 
     <groupId>org.hudsonci.plugins</groupId>
     <artifactId>global-build-stats</artifactId>
-    <version>1.4-h-1</version>
+    <version>1.4-h-2-SNAPSHOT</version>
     <name>Hudson Global Build Stats Plugin</name>
     <packaging>hpi</packaging>
     <url>http://wiki.hudson-ci.org/display/HUDSON/Global+Build+Stats+Plugin</url>
